@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const floorsContainer = document.getElementById('floors');
     const selectFloor = document.getElementById('select-floor');
     
-    // Generate floors and select options
     for (let i = 0; i <= totalFloors; i++) {
         const floor = document.createElement('div');
         floor.classList.add('floor');
