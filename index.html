@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="building">
+        <div id="floors" class="floors">
+            <!-- Floors will be dynamically generated here -->
+        </div>
+    </div>
+    <div class="controls">
+        <button onclick="moveUp()">Move Up</button>
+        <button onclick="moveDown()">Move Down</button>
+        <label for="select-floor">Select Floor</label>
+        <select id="select-floor">
+            <!-- Options will be dynamically generated here -->
+        </select>
+        <button onclick="moveToSelectedFloor()">Go</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
