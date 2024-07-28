@@ -51,5 +51,5 @@ function moveLift(floor) {
     const lift = document.getElementById('lift');
     const targetFloor = document.getElementById(`floor-${floor}`);
     const offset = targetFloor.offsetTop;
-    lift.style.transform = `translatey(${offset}px)`;
+    lift.style.transform = `translatey(+${offset}px)`;
 }
