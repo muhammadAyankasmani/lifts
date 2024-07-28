@@ -1,3 +1,4 @@
+
 const totalFloors = 10;
 let currentFloor = 0;
 
@@ -5,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const floorsContainer = document.getElementById('floors');
     const selectFloor = document.getElementById('select-floor');
     
+   
     for (let i = 0; i <= totalFloors; i++) {
         const floor = document.createElement('div');
         floor.classList.add('floor');
